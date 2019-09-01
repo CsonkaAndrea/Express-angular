@@ -1,0 +1,122 @@
+[
+    {
+        "productID": 1,
+        "insertDate": "2019-08-16",
+        "name": "Armageddon",
+        "age": "12 éves kortól ajánlott",
+        "description": "Eljött a világ vége - de nem mindenkinek. Maradt pár maroknyi túlélő, akik megpróbálnak új civilizációt alapítani - azonban ezt mindenki másképp gondolja. A fosztogatók pedig úgy, hogy ezen az istentelen világon minden az övék... Az Armageddon egy közepesen összetett stratégiai társasjáték, amelyben saját várost kell alapítanunk, és azt minél jobban menedzselnünk.A legfőbb feladatunk a túlélők befogadása és ellátása, valamint képességeik ideális hasznosítása. Ám e mellett új épületeket kell húznunk, kutatásokkal vissza kell állítanunk a régi technológia egyes részleteit, valamint ha lehet veszteségek nélkül kell visszavernünk a fosztogatók egyre erősödő támadásait - és persze a városunknak jobban kell működnie, mint a többiekének. Rendeld meg most és építsetek együtt egy új világot!",
+        "price": 8490,
+        "players": "Min. 3 - max. 4 fő",
+        "category": "stratégiai",
+        "imageUrl": "armageddon.jpg",
+        "shortDescription": "Eljött a világ vége. Maroknyi túlélő próbál új civilizációt alapítani - azonban ezt mindenki másképp gondolja. A fosztogatók pedig úgy, hogy minden az övék..."
+    },
+    {
+        "productID": 2,
+        "insertDate": "2019-08-16",
+        "name": "Dungeons and Dragons: Assault of the Giants",
+        "age": "14 éves kortól ajánlott",
+        "description": "Ebben a területfoglaló stratégiai játékban különböző célokért küzdő óriásokat irányítasz majd, minden idők - szó szerint - leghatalmasabb háborújában! A vihar óriások Hekaton király uralmát akarják visszaállítani, a felleg óriások egy ősi és elveszett kincset keresnek, amit egy sárkány őrzött, a dombi óriások portyára indultak, hogy a rabolt élelmeikkel urukat, Guh törzsfőnököt etessék. És az óriások talpa alatt az aprónép élete romokban hever!Irányítsd az óriásaidat, hogy elérd a céljaidat.Tereld bele az óriás - vadász kalandozókat az ellenség harcosaiba. Dönts és nyerj az óriások csatájában!",
+        "price": 25990,
+        "players": "Min. 3 fő",
+        "category": "stratégiai",
+        "imageUrl": "dungeons-dragons.jpg",
+        "shortDescription": "Ebben a területfoglaló stratégiai játékban különböző célokért küzdő óriásokat irányítasz majd, minden idők leghatalmasabb háborújában!..."
+    },
+    {
+        "productID": 3,
+        "insertDate": "2019-08-16",
+        "name": "Elysium",
+        "age": "8 éves kortól ajánlott",
+        "description": "A misztikus görög-földön, mint feltörekvő félisten legendássá szeretnél válni, illetve el akarod nyerni az Olimposziak kegyeit...Mindehhez hősöket és misztikus erővel felruházott eszközöket kell gyűjtened! Nyűgözd le az isteneket és légy saját mítoszod megírója! Az Elysium a gyűjtögetés és a kombinációk játéka– melyben minden kártyalap egy - egy istenséget, hőst, hatalmat vagy eszközt képvisel.A lapok erősségük szerint eltérőek lehetnek, mindegyikük más - más olimposzi családhoz tartozik és különböző akciókat lehet velük végrehajtani.A játékmenet során a játékosok 5 kör alatt próbálják lapjaikat az Elysium - ba eljuttatni és saját legendájukat kialakítani: csakis így nyerhetik el az istenek tetszését...  Az Elysium az egyensúly és a lehetőségek játéka akcióval fűszerezve.A győzelmez pedig komplex stratégiára és komoly döntések meghozatalára lesz szükséged! Készen állsz arra, hogy legendává avassanak ? Bizonyítsd!",
+        "price": 14490,
+        "players": "Min. 2 fő",
+        "category": "stratégiai",
+        "imageUrl": "elysium.jpg",
+        "shortDescription": "A misztikus görög-földön, mint feltörekvő félistennek a célod, hogy elnyerd az Olimposziak kegyeit. Nyűgözd le az isteneket és légy saját mítoszod megírója!..."
+    },
+    {
+        "productID": 4,
+        "insertDate": "2019-08-16",
+        "name": "Fireteam Zero Coreset",
+        "age": "14 éves kortól ajánlott",
+        "description": "1942-ben négy katonát eltűntnek nyilvánítottak, és nevüket kitörölték a történelemből, hogy egy különleges kiképzésen vegyenek részt, ami után felvehetik a harcot az emberiséget veszélyeztető természetfelettivel.Ez az ő történetük... Ez a te történeted! A kooperatív kalandjátékok szerelmeseit könnyen magával ragadja ez a játék, gyönyörű - és rettenetes - figuráival, változatos színvonalas történetével, és kártyavezérelt egyedi motorjával!Ha nem félsz szembenézni a túlvilággal próbáld ki a Fireteam Zero - t!",
+        "price": 29490,
+        "players": "Min. 2 fő",
+        "category": "stratégiai",
+        "imageUrl": "fireteam-zero.jpg",
+        "shortDescription": "1942-ben négy katonát eltűntnek nyilvánítottak, hogy egy különleges kiképzésen vegyenek részt, ami után felvehetik a harcot az emberiséget veszélyeztető természetfelettivel..."
+    },
+    {
+        "productID": 5,
+        "insertDate": "2019-08-16",
+        "name": "Háborúk kora",
+        "age": "8 éves kortól ajánlott",
+        "description": "Légy Te a legerősebb hadvezér és egyesítsd a birodalmat! A császár hatalma halványodni látszik Japánban, a klánok pedig átveszik az uralmat saját területük felett. Japán darabjaira szakad, a klánvezérek véres háborúba kezdtek egymással.Pedig céljuk közös;egyesíteni a birodalmat.Ez viszont csak akkor lehetséges, ha egy erőskezű vezér egyesíti a többieket, és a klánok békében egyesülnek.Ki lesz ez a vezér? Rendeld meg most és indulhat a felhőtlen szórakozás!",
+        "price": 4790,
+        "players": "Min. 2 fő",
+        "category": "stratégiai",
+        "imageUrl": "haboruk-kora.png",
+        "shortDescription": "Légy Te a legerősebb hadvezér és egyesítsd a birodalmat! A császár hatalma halványodni látszik Japánban, a klánok pedig átveszik az uralmat saját területük felett..."
+    },
+    {
+        "productID": 6,
+        "insertDate": "2019-08-16",
+        "name": "Bicycle Masters Poker szett",
+        "age": "12 éves kortól ajánlott",
+        "description": "Profi póker szett - Minden, ami kellhet egy jó póker partihoz. Ebben a minőségi póker szettben a következőket találod: 300 db zseton: 30 fekete, 60 piros, 90 kék, 120 zöld - 2 dbPremium Bicycle pakli. A zsetonok 8 grammos Bicycle zsetonok, melyekkel igazi pókerélményben lesz részed. A szet egy lakkozott fa dobozban kerül a bajnokokhoz. Rendeld meg most és rendezzetek egy póker partit, akárcsak a profik!",
+        "price": 22990,
+        "players": "Min. 2 fő",
+        "category": "kártyajáték",
+        "imageUrl": "poker-masters-szett.jpg",
+        "shortDescription": "Profi póker szett - Minden, ami kellhet egy jó póker partihoz. Ebben a minőségi póker szettben a zsetonok 8 grammos Bicycle zsetonok, melyekkel igazi pókerélményben lesz részed..."
+    },
+    {
+        "productID": 7,
+        "insertDate": "2019-08-16",
+        "name": "Piatnik Tortuga",
+        "age": "8 éves kortól ajánlott",
+        "description": "Kalózkodj! A Tortuga társasjátékban a játékosok kalózok szerepébe bújva kutatnak a Karib - térség értékes kincsei után. Céljuk, hogy minél több kinccsel megrakodva érjék el a kalózvárost, Tortugát!Szerezz minél több kincsesládát, és küzdj meg a rivális kalózokkal! Rendeld meg most, és zsákmányolj minél több kincset!",
+        "price": 6990,
+        "players": "Min. 2 fő",
+        "category": "stratégiai",
+        "imageUrl": "tortuga.jpg",
+        "shortDescription": "Kalózkodj! A játékosok kalózok szerepébe bújva kutatnak a Karib-térség értékes kincsei után. Céljuk, hogy minél több kinccsel megrakodva érjék el a kalózvárost, Tortugát!..."
+    },
+    {
+        "productID": 8,
+        "insertDate": "2019-08-16",
+        "name": "Star Wars: Birodalom vs lázadók",
+        "age": "10 éves kortól ajánlott",
+        "description": "Vajon ki fog győzni, mi lesz a galaxis végzete? Arass győzelmet a Galaktikus Polgárháborúban a Star Wars: Birodalom vs Lázadók gyorsított kétszemélyes kártyajátékban!Minden körben a feladatotok az, hogy megegyezzetek a kulcsfontosságú események erőforrás - ellátmánya felett.Ha keresztbe akarsz tenni ellenfelednek, akkor magadénak tulajdonítod az eseményt, ami közelebb visz a győzelemhez.Akár katonasággal vagy diplomáciával utazol a győzelemre, a galaxis sorsa a kezedben van! A játék tartalma: 48 erőforrás kártya, 24 esemény kártya, 10 stratégiai kártya, 16 befolyás jelző, 1 egyensúly jelző, 50 energiazseton, 28 zseton, 1 játékszabály. Rendeld meg most és indulhat a felhőtlen szórakozás!",
+        "price": 4790,
+        "players": "1-2 fő",
+        "category": "stratégiai",
+        "imageUrl": "star-wars.jpg",
+        "shortDescription": "Vajon mi lesz a galaxis végzete? Arass győzelmet a Galaktikus Polgárháborúban, ebben a gyorsított kétszemélyes kártyajátékban!..."
+    },
+    {
+        "productID": 9,
+        "insertDate": "2019-08-16",
+        "name": "Trónok harca 2. kiadás",
+        "age": "8 éves kortól ajánlott",
+        "description": "Megjelent a Trónok Harca társasjáték második kiadása! A stratégiai társasjáték George R.R.Martin bestsellereire, A tűz és jég dalának regénye alapján készült. Igazi party társasjáték, amihez legalább hárman kelletek. Bármilyen összejövetelt feldobhattok ezzel a fantasztikus társasjátékkal, melynek hossza csak Tőletek függ. Díjnyertes társasjáték: 2013 Ludoteca Ideale Official Selection győztes. Rajongóknak és gyűjtőknek kötelező darab!Rendeld meg most!",
+        "price": 18990,
+        "players": "3-6 fő",
+        "category": "stratégiai",
+        "imageUrl": "tronok-harca-2.jpg",
+        "shortDescription": "Díjnyertes társasjáték: 2013 Ludoteca Ideale Official Selection győztes. Igazi party társasjáték, rajongóknak és gyűjtőknek kötelező darab!..."
+    },
+    {
+        "productID": 10,
+        "insertDate": "2019-08-16",
+        "name": "Rettegés Arkhamban",
+        "age": "12 éves kortól ajánlott",
+        "description": "Imádod a horrorokat? Próbáld meg túlélni az igazi horrort! 1926 - ot írunk, a viharos huszas évek derekán járunk. Csinos hölgyek táncolnak virradatig a füsttel teli, alkoholtól fűtött hangulatú helyiségekben. Ez a party a háborúk végét ünneplendő, és mindenki reménytelve ropja utolsó táncát, hogy ilyen alkalomból már soha többé nem kell ünnepelniük. Mindeközben egy sötét árny borítja be Arkham városát. Idegenek, az Ősök érkeztek az űr és idő ürességéből. A világok közötti kapuk egyre csak nyílnak, és csak is rajtunk múlik, hogy átveszik e az ide érkező idegenek az irányítást felettünk. Készen állsz a horror leküzdésére? A Rettegés Arkhamban egy kooperatív kalandjáték, amely H.P.LoveCraft Cthulhu Mítoszán alapul. Bújj a 16 nyomozó egyikének bőrébe és tartsd szemed Arkham utcáin! A játék kezdete előtt válasszátok ki az Ősök egyikét, akinek világunkba való jutását meg kell akadályoznotok. A játék során fejleszteni tudod nyomozód képességeit, fegyvereket, igéket és szövetségeseket gyűjthetsz.Tisztítsátok meg Arkham utcáit a szörnyek legyőzésével és zárjátok be a világokat összekötő portált! Mire vársz még ? Rendeld meg most és mentsd meg a világot!",
+        "price": 17990,
+        "players": "1-8 fő",
+        "category": "stratégiai",
+        "imageUrl": "retteges-arkhamban.jpg",
+        "shortDescription": "Imádod a horrorokat? Próbáld meg túlélni az igazi horrort! Csak is rajtunk múlik, hogy átveszik e az ide érkező idegenek az irányítást felettünk...."
+    }
+]

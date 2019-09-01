@@ -1,0 +1,68 @@
+<div class="container text-primary">
+
+    <div class="row product-admin-searchbar">
+        <div class="col-4">
+            <h1 class="admin-product-h1">Product List</h1>
+        </div>
+        <div class="col-3 offset-3">
+            <input [(ngModel)]="filterPhrase" type="text" class="form-control">
+        </div>
+        <div class="col-2">
+            <select class="form-control" [(ngModel)]="filterProp">
+                <option value="productID">Product ID</option>
+                <option value="insertDate">Insert Date</option>
+                <option value="name">Product Name</option>
+                <option value="age">Age</option>
+                <option value="price">Price</option>
+                <option value="players">Players</option>
+                <option value="category">Category</option>
+                <option value="imageUrl">Image URL</option>
+                <option value="shortDescription">Short Description</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <table class="table table-striped">
+        <thead class=" text-primary">
+            <tr>
+                <th (click)="setSorterKey('imageUrl')" class="imageUrl title">Image URL</th>
+                <th (click)="setSorterKey('productID')" class="productID title">Product ID</th>
+                <th (click)="setSorterKey('insertDate')" class="insertDate title">Insert Date</th>
+                <th (click)="setSorterKey('name')" class="name title">Product Name</th>
+                <th (click)="setSorterKey('age')" class="age title">Age</th>
+                <th (click)="setSorterKey('shortDescription')" class="shortDescription title">Short Description</th>
+                <th (click)="setSorterKey('price')" class="price title">Price</th>
+                <th (click)="setSorterKey('players')" class="players title">Players</th>
+                <th (click)="setSorterKey('category')" class="category title">Category</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let product of productList | productsAdminFilter:filterPhrase | productsAdminSort:orderKey:orderDirectionit">
+                <td>{{ product.imageUrl }}</td>
+                <td>{{ product.productID }}</td>
+                <td>{{ product.insertDate }}</td>
+                <td>{{ product.name }}</td>
+                <td>{{ product.age }}</td>
+                <td>{{ product.shortDescription }}</td>
+                <td>{{ product.price }} Ft</td>
+                <td>{{ product.players }}</td>
+                <td>{{ product.category }}</td>
+
+                <td>
+                    <button routerLink="{{ product.productID }}" class="btn btn-info">
+                        Edit
+                    </button>
+                </td>
+                <td>
+                    <button (click)="removeProduct(product.productID)" class="btn btn-warning">
+                        Delete
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

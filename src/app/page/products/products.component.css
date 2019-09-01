@@ -1,0 +1,46 @@
+#webshopSearch {
+  margin: 15px 0px 0px 0px;
+}
+
+.card-img-top {
+  width: 214px;
+  height: 214px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+}
+
+.cards {
+  margin-bottom: 10px;
+}
+
+
+.price {
+  padding: 20px;
+  font-size: 20px;
+  color: #ff0;
+}
+
+.card-title {
+  color: #ff0;
+}
+
+#priceSorting {
+  padding-right: 20px;
+  padding-left: 50px;
+}
+
+.triangle input {
+  height: 40px;
+  width: 40px;
+}
+
+.yellowText {
+  color: #ff0;
+}
+
+.img {
+  margin: 15px;
+}

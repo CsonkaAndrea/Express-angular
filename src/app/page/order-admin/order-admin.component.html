@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <table class="table">
+        <thead>
+          <tr>
+            <th> {{ orderListKeys[0] }} </th>
+            <th> {{ orderListKeys[1] }} </th>
+            <th> {{ orderListKeys[2] }} </th>
+            <th> {{ orderListKeys[3] }} </th>
+            <th> {{ orderListKeys[4] }} </th>
+            <th> {{ orderListKeys[5] }} </th>
+            <th> {{ orderListKeys[6] }} </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let order of orderList">
+            <td> {{ order.orderID }}</td>
+            <td> {{ order.insertDate }}</td>
+            <td> {{ order.productID }}</td>
+            <td> {{ order.userName }}</td>
+            <td> {{ order.userEmail }}</td>
+            <td> {{ order.shippingaddress }}</td>
+            <td> {{ order.quantity }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

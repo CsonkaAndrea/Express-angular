@@ -1,0 +1,50 @@
+<div class="container"
+     id="webshopSearch">
+  <div class="form-group row">
+    <label for=""
+           class="col-xs-4 offset-1 col-lg-1 col-form-label yellowText">Search</label>
+    <div class="col-xs-6 col-lg-6">
+      <input [(ngModel)]="filterPhrase"
+             type="text"
+             class="form-control"
+             placeholder="Name of the game or part of description">
+    </div>
+    <label id="priceSorting"
+           class="col-1 col-form-label yellowText">Price</label>
+    <div class="col-2 triangle">
+      <input (click)="sortAscending()"
+             type="image"
+             src="https://img.icons8.com/color/48/000000/sort-up.png">
+      <input (click)="sortDescending()"
+             type="image"
+             src="https://img.icons8.com/color/48/000000/sort-down.png">
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-1 col-lg-4 cards"
+         *ngFor="let product of productList | filter: filterPhrase: changeCounter">
+      <div class="card"
+           style="width: 18rem;">
+        <div class="img img -fluid"> <img rounded
+               mx-auto
+               d-block
+               src="../../../assets/{{product.imageUrl}}"
+               class="card-img"
+               alt="..."></div>
+        <div class="card-body bg-primary">
+          <h5 class="card-title">{{ product.name }}</h5>
+          <p class="card-text">{{ product.shortDescription }}</p>
+          <div form-inline>
+            <a routerLink="/products/{{ product.productID }}"
+               class="btn btn-success">Megrendelem</a>
+            <label class="price">{{ product.price | number:'' }} Ft</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

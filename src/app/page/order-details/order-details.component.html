@@ -1,0 +1,154 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1>{{product.name}}</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="img img-fluid">
+        <img class="rounded mx-auto d-block"
+             src="../../../../../assets/{{product.imageUrl}}"
+             alt="Kép helye">
+      </div>
+    </div>
+  </div><br>
+
+  <table class="table table-striped table-hover">
+    <div class="row">
+      <div class="col-5 offset-1">
+        <div class="media">
+          <div class="media-body mx-auto">
+            <tr>
+              <th>Név:</th>
+              <td>{{ product.name }} </td>
+            </tr>
+            <tr>
+              <th>Életkor:</th>
+              <td>{{ product.age }} </td>
+            </tr>
+            <tr>
+              <th>Játékosok száma:</th>
+              <td>{{ product.players }} </td>
+            </tr>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 offset-1">
+        <div class="media">
+          <div class="media-body mx-auto">
+            <tr>
+              <th>Kategória:</th>
+              <td>{{ product.category }} </td>
+            </tr>
+            <tr>
+              <th>Ár:</th>
+              <td>{{ product.price | currency: 'HUF'}} </td>
+            </tr>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </table><br>
+
+  <div class="media">
+    <div class="media-body">
+      <h5 class="mt-0">Leírás</h5>
+      {{ product.description }}
+    </div>
+  </div><br>
+
+  <div class="row">
+    <div class="col-12">
+      <form class="form was-validated"
+            (submit)="onAdd($event)">
+        <h2>Add meg az adataid, és már szállítjuk is!</h2>
+        <div class="form-group">
+          <label for="userNickname">Felhasználónév</label>
+          <input [(ngModel)]="order.userName"
+                 name="userName"
+                 required
+                 type="text"
+                 class="form-control"
+                 id="userNickname"
+                 placeholder="Felhasználónév">
+          <small id="emailHelp"
+                 class="form-text text-muted">Felhasználónevedet csak mi látjuk.
+            :)</small>
+          <div class="valid-feedback">
+            Ez a felhasználónév még szabad.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="userEmail">Email</label>
+          <input [(ngModel)]="order.userEmail"
+                 required
+                 name="userEmail"
+                 type="email"
+                 class="form-control"
+                 id="userEmail"
+                 placeholder="Email">
+          <small id="emailHelp"
+                 class="form-text text-muted">Email címedet szintén bizalmasan
+            kezeljük.</small>
+          <div class="valid-feedback">
+            Ez az email még szabad.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="userShippingAddress">Szállítási cím</label>
+          <input [(ngModel)]="order.shippingaddress"
+                 required
+                 name="shippingaddress"
+                 type="text"
+                 class="form-control"
+                 id="userShippingAddress"
+                 placeholder="Szállítási cím">
+          <small id="emailHelp"
+                 class="form-text text-muted">Kérjük, vedd figyelembe, hogy csak
+            belföldre szállítunk!</small>
+        </div>
+        <div class="form-group">
+          <label for="productQuantity">Add meg, hány darabot szeretnél!</label>
+          <input [(ngModel)]="order.quantity"
+                 required
+                 name="quantity"
+                 type="number"
+                 class="form-control"
+                 id="productQuantity">
+          <div class="valid-feedback">
+            {{nodeQuantity}}
+          </div>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox"
+                 class="form-check-input"
+                 id="exampleCheck1"
+                 checked>
+          <label class="form-check-label"
+                 for="exampleCheck1">Feliratkozom a hirlevélre!</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox"
+                 class="form-check-input"
+                 id="exampleCheck1"
+                 required>
+          <label requied
+                 class="form-check-label"
+                 for="exampleCheck1">Elfogadom a <strong><a
+                 href="">Felhasználási
+                Feltételeket</a></strong>!</label>
+        </div>
+        <button type="submit"
+                class="btn btn-success btn-block"><strong>Megrendelem!</strong></button>
+        <small id="emailHelp"
+               class="form-text text-muted text-center">Kérjük, csak akkor add
+          le a
+          megrendelést, ha
+          valóban át is veszed a terméket. Köszönjük. :)</small>
+      </form>
+    </div>
+  </div>
+</div>
